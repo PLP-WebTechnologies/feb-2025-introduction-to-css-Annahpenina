@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Save Trees in Africa</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Save Trees in Africa</h1>
+            <img src="C:\feb-2025-introduction-to-css-Annahpenina\images\pexels-iriser-1105826.jpg" width="550" height="300">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#join">Join Us</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+           </header>
+           <section>
+            <article>
+                <p>Welcome to Save Trees Africa, a non-profit organization dedicated to reforestation and environmental conservation across the African continent. Our mission is to plant trees, educate communities, and promote sustainable practices to combat climate change and preserve biodiversity.</p>
+            </article>
+        <section>
+            <h2>Why Save Tree?</h2>
+            <ol class="reasons-list" type="i">
+                <li>They provide oxygen</li>
+                <li>They provide food</li>
+                <li>They prevent deforestation</li>
+                <li>They provide medicine</li>
+                <li>They protect wildlife</li>
+                <li>They reduce climate change impact</li>
+            </ol>
+        </section>
+        <section id="tree-stats">
+            <h2>Tree Planting Statics</h2>
+            <img src="C:\feb-2025-introduction-to-css-Annahpenina\images\istockphoto-1466653262-612x612.jpg" alt="Tree Planting" width="550" height="300">
+            <br><br>
+            <article>
+                <p>In the past 5 years, we have successfully planted over 2 million trees across various regions in Africa. Our efforts have not only contributed to reforestation but also provided jobs and improved the livelihoods of local communities.</p>
+            </article>
+            <caption>Tree figures information</caption>
+            <table  class="stats-table" border="3">
+                <thead>
+                <tr>
+                    <th>Year</th>
+                    <th>Trees Planted</th>
+                </tr>
+                </thead>
+                <tr>
+                    <td>2019</td>
+                    <td>189,000</td>
+                </tr>
+                <tr>
+                    <td>2020</td>
+                    <td>300,000</td>
+                </tr>
+                <tr>
+                    <td>2021</td>
+                    <td>478,000</td>
+                </tr>
+                <tr>
+                    <td>2022</td>
+                    <td>500,000</td>
+                </tr>
+                <tr>
+                    <td>2023</td>
+                    <td>789,000</td>
+                </tr>
+        </table>
+        </section>
+        <section>
+            <h2>Join Our Movement</h2>
+            <form action="#" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your name"><br><br>
+            
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email"><br><br>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required minlength="6"><br><br>
+                
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required><br><br>
+                
+                <label>Preferred Role:</label><br>
+                <input type="radio" id="volunteer" name="role" value="Volunteer" required>
+                <label for="volunteer">Volunteer</label>
+                <input type="radio" id="donor" name="role" value="Donor">
+                <label for="donor">Donor</label><br><br>
+                
+                <label>Areas of Interest:</label><br>
+                <input type="checkbox" id="reforestation" name="interest" value="Reforestation">
+                <label for="reforestation">Reforestation</label>
+                <input type="checkbox" id="education" name="interest" value="Education">
+                <label for="education">Education</label><br><br>
+
+                <label for="country">Country:</label>
+                <select id="country" name="country" required>
+                    <option value="">Select your country</option>
+                    <option value="Kenya">Kenya</option>
+                    <option value="South Africa">South Africa</option>
+                    <option value="Nigeria">Nigeria</option>
+                    <option value="Algeria">Algeria</option>
+                    <option value="Egypt">Egypt</option>
+                    <option value="Angola">Angola</option>
+                    <option value="Botswana">Botswana</option>
+                    <option value="Ethiopia">Ethiopia</option>
+                </select><br><br>
+                
+                <button class="submit-button" type="submit">Register</button>
+            </form>
+        </section>
+    </body>
+</html>

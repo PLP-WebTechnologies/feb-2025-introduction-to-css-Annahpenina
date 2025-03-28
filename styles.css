@@ -1,0 +1,77 @@
+body {
+    background-image: url(C:\feb-2025-introduction-to-css-Annahpenina\images\pexels-cody-king-433493-1118667.jpg);
+    background-color: rgb(6, 89, 6);
+    font-family: sans-serif;
+    padding: 20px;
+  }
+
+h1 {
+  text-align: center;
+  font-size: 45px;
+  margin: 0 15px
+  background-color: rgba(89, 6, 6, 0.5);
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  text-decoration: underline solid black;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  text-align: center;
+  color: gold;
+}
+
+
+p {
+  font-size: 20px;
+  font-family: cursive;
+  text-align: center;
+  color: grey;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  border-left: 5px solid #4CAF50;
+}
+
+img {
+  border: 2px solid #4CAF50
+  width: 100%; 
+  max-width: 500px; 
+  height: auto; 
+  border-radius: 20px; 
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); 
+}
+img:hover {
+  border: 2px solid brown;
+}
+
+#tree-stats {
+  color:burlywood;
+  padding: 20px
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  margin: 20px auto;
+}
+
+.submit-button {
+  background-color: yellow;
+  border-radius: 10px;
+}
+
+.reasons-list{
+  font-family: fantasy; 
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color:lightblue;
+
+}
+
+border {
+  border-color:aqua;
+  border-style: dashed;
+
+}
+
